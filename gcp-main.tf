@@ -1,5 +1,5 @@
 resource "google_app_engine_application" "app" {
-  project     =  project
+  project     =  ${var.project}
   location_id = "us-central"
 }
 
