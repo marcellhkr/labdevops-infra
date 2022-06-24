@@ -1,5 +1,5 @@
 resource "google_app_engine_application" "app" {
-  project     = var.project
+  project     =  TF_VAR_project
   location_id = "us-central"
 }
 
